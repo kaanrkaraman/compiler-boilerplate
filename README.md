@@ -1,3 +1,5 @@
+<center>[![Node.js E2E Testing](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml)</center>
+
 # Bootstrap compiler
 
 This is a bootstrap compiler that can be used to compile to compiler written in the target language. You can write a compiler in the target language and compile it with this compiler, and create a brand new language
