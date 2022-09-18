@@ -5,6 +5,7 @@
 	"scripts": {
 		"compile:win": "rmdir /s /q \"dist\" && tsc",
 		"compile:darwin": "clear && rm -rf dist && tsc",
+		"compile:actions": "tsc",
 		"test": "jest"
 	},
 	"engines": {
