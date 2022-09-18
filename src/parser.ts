@@ -1,3 +1,8 @@
+/*
+ * Huge shoutout to @jamiebuilds, https://github.com/jamiebuilds/the-super-tiny-compiler
+ * His work made this base compiler possible
+ */
+
 const whitespaceRE = new RegExp(/\s/);
 const numbersRE = new RegExp(/[0-9]/);
 
