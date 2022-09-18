@@ -21,7 +21,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-        cache: 'npm'
+  test:
+    runs-on: ubuntu-latest
+    steps:
     - name: GitHub Action for Yarn
       uses: Borales/actions-yarn@v3
     - run: yarn
