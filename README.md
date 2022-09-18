@@ -1,5 +1,3 @@
-Write a README file for bootstrap compiler
-
 # Bootstrap compiler
 
 This is a bootstrap compiler that can be used to compile to compiler written in the target language. You can write a compiler in the target language and compile it with this compiler, and create a brand new language
