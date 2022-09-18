@@ -1,4 +1,4 @@
-<center>[![Node.js E2E Testing](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml)</center>
+[![Node.js E2E Testing](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml/badge.svg)](https://github.com/1000snowy/compiler-boilerplate/actions/workflows/node.js.yml)
 
 # Bootstrap compiler
 
