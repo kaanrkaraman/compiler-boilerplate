@@ -1,4 +1,4 @@
-name: Node.js CI
+name: Node.js E2E Testing
 
 on:
   push:
@@ -9,9 +9,7 @@ env:
   TERM: true
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [16.x]
@@ -21,11 +19,9 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-  test:
-    runs-on: ubuntu-latest
-    steps:
     - name: GitHub Action for Yarn
       uses: Borales/actions-yarn@v3
     - run: yarn
     - run: yarn compile:actions
-    - run: yarn test
+    - run: yarn test   
+
