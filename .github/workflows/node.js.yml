@@ -21,6 +21,8 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run compile:darwin
-    - run: npm test
+    - name: GitHub Action for Yarn
+      uses: Borales/actions-yarn@v3
+    - run: yarn
+    - run: yarn compile:darwin
+    - run: yarn test
